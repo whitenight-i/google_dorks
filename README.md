@@ -31,10 +31,10 @@ pip install -r requirements.txt
 ##Usage
 
 ##Search a single site:
- python google_dorking_tool.py -s "example.com"
+ python search.py -s "example.com"
 
 ##Search multiple sites from a list
-python google_dorking_tool.py -l "sites.txt"
+python search.py -l "sites.txt"
 
 ##Example output:
 [SEARCHING SITE] example.com
