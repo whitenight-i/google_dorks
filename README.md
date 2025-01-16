@@ -26,3 +26,23 @@ You can install the required dependencies by running:
 
 ```bash
 pip install -r requirements.txt
+
+ 
+##Usage
+
+##Search a single site:
+ python google_dorking_tool.py -s "example.com"
+
+##Search multiple sites from a list
+python google_dorking_tool.py -l "sites.txt"
+
+##Example output:
+[SEARCHING SITE] example.com
+[SEARCHING QUERY] intitle:"index of" "site:example.com"
+[200 OK] http://example.com/backup.zip - Size: 1024 bytes
+[ERROR 403] http://example.com/secret-file.sql
+[FAILED] http://example.com/missing-file
+
+
+
+
